@@ -1,14 +1,17 @@
-dev_dependencies:
-  test: 0.1
-  build:
-    version: 0.1
-
+name: newtify
+version: 1.2.3
+description: >-
+  Have you been turned into a newt?  Would you like to be?
+  This package can help. It has all of the
+  newt-transmogrification functionality you have been looking
+  for.
+author: Natalie Weizenbaum <nweiz@google.com>
+homepage: https://example-pet-store.com/newtify
+documentation: https://example-pet-store.com/newtify/docs
+environment:
+  sdk: '>=2.0.0 <3.0.0'
 dependencies:
-  bar:
-    sdk: flatter
-  foo: 1
-  bar:
-    version: 1
-  baz:
-    non-sense: true
-  qux: false
+  efts: ^2.0.4
+  transmogrify: ^0.4.0
+dev_dependencies:
+  test: '>=0.6.0 <0.12.0'
